@@ -77,7 +77,7 @@
   background-position:right;
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/hintergrund.png', sizingMethod='scale')";
   @media screen and (max-width: 1024px) {
-    background: url("../img/officesummit_small.jpg") no-repeat;
+    background: url("../img/hintergrund.png") no-repeat;
     background-size: 1024px;
   }
   //ipad
@@ -86,12 +86,12 @@
   }
 }
 .pagebg.imageopen-closed{ 
-  background: url("../img/open-closed.jpg") no-repeat;
+  background: url("../img/community.png") no-repeat;
   background-size:cover;
   background-position:right;
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/open-closed.jpg', sizingMethod='scale')";
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/community.png', sizingMethod='scale')";
   @media screen and (max-width: 1024px) {
-    background: url("../img/open-closed_small.jpg") no-repeat;
+    background: url("../img/community_small.png") no-repeat;
     background-size: 1024px;
   }
   //ipad
@@ -100,7 +100,7 @@
   }
 }
 .pagebg.imagegood_governance{ 
-  background: url("../img/good_governance.jpg") no-repeat;
+  background: url("../img/map.png") no-repeat;
   background-size:cover;
   background-position:right;
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/good_governance.jpg', sizingMethod='scale')";
@@ -114,12 +114,12 @@
   }
 }
 .pagebg.imageforthepeople{ 
-  background: url("../img/forthepeople.jpg") no-repeat;
+  background: url("../img/wiki.png") no-repeat;
   background-size:cover;
   background-position:right;
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/forthepeople.jpg', sizingMethod='scale')";
   @media screen and (max-width: 1024px) {
-    background: url("../img/forthepeople_small.jpg") no-repeat;
+    background: url("../img/wiki_small.png") no-repeat;
     background-size: 1024px;
   }
   //ipad
@@ -211,10 +211,10 @@
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/annual_report_back.jpg', sizingMethod='scale')";
 }
 .pagebg.imagepressback{ 
-  background: url("../img/pressback.jpg") no-repeat;
+  background: url("../img/pressback.png") no-repeat;
   background-size:cover;
   background-position:right;
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/pressback.jpg', sizingMethod='scale')";
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/pressback.png', sizingMethod='scale')";
 }
 
 .pagebg img{ 

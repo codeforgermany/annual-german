@@ -22,24 +22,6 @@
 }
 
 
-
-.press .pbs:hover,
-.press .time:hover,
-.press .details:hover,
-.press .globaljournal:hover,
-
-.press .fastco:hover  {
-  background-position: 0 -40px;
-}
-
-.press .atlanticcities:hover,
-.press .usatoday:hover,
-.press .pbs:hover,
-.press .cnet:hover
-  {
-  background-position: 0 -60px;
-}
-
 /* .7895 */
 
 .press .atlanticcities{
@@ -64,8 +46,9 @@
 
 .press .pbs {
   background-image:url('../img/pbs.png');
-  background-size: 146px;
-  width: 146px;
+  background-size: 156px;
+  width: 156px;
+  height: 60px;
 }
 
 .press .taz {
