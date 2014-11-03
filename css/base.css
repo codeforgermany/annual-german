@@ -2005,14 +2005,13 @@ li {
   text-align: left;
 }
 
-/* line 19, ../sass/_press.scss */
-.press .atlanticcities,
+/* line 18, ../sass/_press.scss */
 .press .heise,
 .press .t3n,
 .press .zdf,
 .press .taz,
-.press .cnet,
-.press .details,
+.press .fritz,
+.press .ted,
 .press .ard,
 .press .golem {
   height: 40px;
@@ -2021,82 +2020,73 @@ li {
 
 /* .7895 */
 /* line 27, ../sass/_press.scss */
-.press .atlanticcities {
-  background-image: url("../img/atlanticcities.png");
-  background-size: 145px;
-  width: 145px;
-  height: 60px;
-}
-
-/* line 34, ../sass/_press.scss */
 .press .heise {
   background-image: url("../img/heise.svg");
   height: 80px;
   width: 150px;
 }
 
-/* line 40, ../sass/_press.scss */
+/* line 33, ../sass/_press.scss */
 .press .t3n {
   background-image: url("../img/t3n.svg");
   width: 150px;
   height: 80px;
 }
 
-/* line 46, ../sass/_press.scss */
+/* line 39, ../sass/_press.scss */
 .press .zdf {
   background-image: url("../img/zdf.svg");
   width: 150px;
   height: 80px;
 }
 
-/* line 52, ../sass/_press.scss */
+/* line 45, ../sass/_press.scss */
 .press .taz {
   background-image: url("../img/taz.svg");
-  background-size: 146px;
-  width: 146px;
+  height: 67px;
+  width: 250px;
 }
 
-/* line 58, ../sass/_press.scss */
-.press .cnet {
-  background-image: url("../img/cnet.png");
-  background-size: 81px;
-  width: 81px;
-  height: 60px;
+/* line 51, ../sass/_press.scss */
+.press .fritz {
+  background-image: url("../img/fritz.svg");
+  width: 180px;
+  height: 120px;
 }
 
-/* line 65, ../sass/_press.scss */
-.press .details {
-  background-image: url("../img/details.png");
-  background-size: 177px;
-  width: 177px;
+/* line 57, ../sass/_press.scss */
+.press .ted {
+  background-image: url("../img/ted.svg");
+  height: 80px;
+  width: 180px;
 }
 
-/* line 71, ../sass/_press.scss */
+/* line 63, ../sass/_press.scss */
 .press .ard {
   background-image: url("../img/ard.svg");
   height: 80px;
   width: 180px;
 }
 
-/* line 77, ../sass/_press.scss */
+/* line 69, ../sass/_press.scss */
 .press .golem {
   background-image: url("../img/golem.svg");
   height: 68px;
   width: 309px;
 }
 
-/* line 85, ../sass/_press.scss */
+/* line 77, ../sass/_press.scss */
 .getinvolved .press div {
   margin-right: 20px;
   float: left;
 }
 
-/* line 90, ../sass/_press.scss */
+/* line 82, ../sass/_press.scss */
 .press div {
   margin: 20px 0;
 }
 
-/* line 94, ../sass/_press.scss */
+/* line 86, ../sass/_press.scss */
 .press .keynotes {
   margin-top: 50px;
 }

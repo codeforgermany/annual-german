@@ -8,13 +8,12 @@
   text-align: left;
 }
 
-.press .atlanticcities,
 .press .heise,
 .press .t3n,
 .press .zdf,
 .press .taz,
-.press .cnet,
-.press .details,
+.press .fritz,
+.press .ted,
 .press .ard,
 .press .golem {
   height: 40px;
@@ -24,12 +23,6 @@
 
 /* .7895 */
 
-.press .atlanticcities{
-  background-image:url('../img/atlanticcities.png');
-  background-size: 145px;
-  width: 145px;
-  height: 60px;
-}
 
 .press .heise {
   background-image:url('../img/heise.svg');
@@ -51,21 +44,20 @@
 
 .press .taz {
   background-image:url('../img/taz.svg');
-  background-size: 146px;
-  width: 146px;
+  height: 67px;
+  width: 250px;
 }
 
-.press .cnet {
-  background-image:url('../img/cnet.png');
-  background-size: 81px;
-  width: 81px;
-  height: 60px;
+.press .fritz {
+  background-image:url('../img/fritz.svg');
+  width: 180px;
+  height: 120px;
 }
 
-.press .details {
-  background-image:url('../img/details.png');
-  background-size: 177px;
-  width: 177px;
+.press .ted {
+  background-image:url('../img/ted.svg');
+  height: 80px;
+  width: 180px;
 }
 
 .press .ard {
