@@ -71,11 +71,11 @@
     background: #7ab5d6;
   }
 }
-.pagebg.imageofficesummit{ 
-  background: url("../img/officesummit.jpg") no-repeat;
+.pagebg.hintergrund{ 
+  background: url("../img/hintergrund.png") no-repeat;
   background-size:cover;
   background-position:right;
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/officesummit.jpg', sizingMethod='scale')";
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/hintergrund.png', sizingMethod='scale')";
   @media screen and (max-width: 1024px) {
     background: url("../img/officesummit_small.jpg") no-repeat;
     background-size: 1024px;
@@ -118,6 +118,21 @@
   background-size:cover;
   background-position:right;
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/forthepeople.jpg', sizingMethod='scale')";
+  @media screen and (max-width: 1024px) {
+    background: url("../img/forthepeople_small.jpg") no-repeat;
+    background-size: 1024px;
+  }
+  //ipad
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    background: #7ab5d6;
+  }
+}
+
+.pagebg.karte{ 
+  background: url("../img/karte.png") no-repeat;
+  background-size:cover;
+  background-position:right;
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/karte.png', sizingMethod='scale')";
   @media screen and (max-width: 1024px) {
     background: url("../img/forthepeople_small.jpg") no-repeat;
     background-size: 1024px;

@@ -650,29 +650,29 @@ a.appspop:hover {
 }
 
 /* line 74, ../sass/_backgrounds.scss */
-.pagebg.imageofficesummit {
-  background: url("../img/officesummit.jpg") no-repeat;
+.pagebg.hintergrund {
+  background: url("../img/hintergrund.png") no-repeat;
   background-size: cover;
   background-position: right;
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/officesummit.jpg', sizingMethod='scale')";
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/hintergrund.png', sizingMethod='scale')";
 }
 @media screen and (max-width: 1024px) {
   /* line 74, ../sass/_backgrounds.scss */
-  .pagebg.imageofficesummit {
-    background: url("../img/officesummit_small.jpg") no-repeat;
+  .pagebg.hintergrund {
+    background: url("../img/hintergrund.png") no-repeat;
     background-size: 1024px;
   }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   /* line 74, ../sass/_backgrounds.scss */
-  .pagebg.imageofficesummit {
+  .pagebg.hintergrund {
     background: #7ab5d6;
   }
 }
 
 /* line 88, ../sass/_backgrounds.scss */
 .pagebg.imageopen-closed {
-  background: url("../img/open-closed.jpg") no-repeat;
+  background: url("../img/community.png") no-repeat;
   background-size: cover;
   background-position: right;
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/open-closed.jpg', sizingMethod='scale')";
@@ -693,7 +693,7 @@ a.appspop:hover {
 
 /* line 102, ../sass/_backgrounds.scss */
 .pagebg.imagegood_governance {
-  background: url("../img/good_governance.jpg") no-repeat;
+  background: url("../img/map.png") no-repeat;
   background-size: cover;
   background-position: right;
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/good_governance.jpg', sizingMethod='scale')";
@@ -714,7 +714,7 @@ a.appspop:hover {
 
 /* line 116, ../sass/_backgrounds.scss */
 .pagebg.imageforthepeople {
-  background: url("../img/forthepeople.jpg") no-repeat;
+  background: url("../img/wiki.png") no-repeat;
   background-size: cover;
   background-position: right;
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/forthepeople.jpg', sizingMethod='scale')";
@@ -729,6 +729,27 @@ a.appspop:hover {
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   /* line 116, ../sass/_backgrounds.scss */
   .pagebg.imageforthepeople {
+    background: #7ab5d6;
+  }
+}
+
+/* line 116, ../sass/_backgrounds.scss */
+.pagebg.karte {
+  background: url("../img/karte.png") no-repeat;
+  background-size: cover;
+  background-position: right;
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/karte.png', sizingMethod='scale')";
+}
+@media screen and (max-width: 1024px) {
+  /* line 116, ../sass/_backgrounds.scss */
+  .pagebg.karte {
+    background: url("../img/forthepeople_small.jpg") no-repeat;
+    background-size: 1024px;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* line 116, ../sass/_backgrounds.scss */
+  .pagebg.karte {
     background: #7ab5d6;
   }
 }
@@ -1968,7 +1989,7 @@ li {
 .press .latimes,
 .press .usatoday,
 .press .pbs,
-.press .time,
+.press .taz,
 .press .cnet,
 .press .details,
 .press .globaljournal,
@@ -1979,20 +2000,14 @@ li {
 
 /* line 30, ../sass/_press.scss */
 .press .pbs:hover,
-.press .time:hover,
+.press .taz:hover,
 .press .details:hover,
 .press .globaljournal:hover,
 .press .fastco:hover {
   background-position: 0 -40px;
 }
 
-/* line 38, ../sass/_press.scss */
-.press .atlanticcities:hover,
-.press .usatoday:hover,
-.press .pbs:hover,
-.press .cnet:hover {
-  background-position: 0 -60px;
-}
+
 
 /* .7895 */
 /* line 44, ../sass/_press.scss */
@@ -2027,8 +2042,8 @@ li {
 }
 
 /* line 71, ../sass/_press.scss */
-.press .time {
-  background-image: url("../img/time.png");
+.press .taz {
+  background-image: url("../img/taz.svg");
   background-size: 146px;
   width: 146px;
 }
@@ -2831,7 +2846,7 @@ iframe.twitter-share-button {
 
 /* line 273, ../sass/base.scss */
 #loading {
-  background: #399fd3;
+  background: #ffffff;
   position: fixed;
   top: 0px;
   left: 0px;

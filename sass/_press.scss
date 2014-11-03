@@ -12,7 +12,7 @@
 .press .latimes,
 .press .usatoday,
 .press .pbs,
-.press .time,
+.press .taz,
 .press .cnet,
 .press .details,
 .press .globaljournal,
@@ -27,6 +27,7 @@
 .press .time:hover,
 .press .details:hover,
 .press .globaljournal:hover,
+
 .press .fastco:hover  {
   background-position: 0 -40px;
 }
@@ -63,13 +64,12 @@
 
 .press .pbs {
   background-image:url('../img/pbs.png');
-  background-size: 156px;
-  width: 156px;
-  height: 60px;
+  background-size: 146px;
+  width: 146px;
 }
 
-.press .time {
-  background-image:url('../img/time.png');
+.press .taz {
+  background-image:url('../img/taz.svg');
   background-size: 146px;
   width: 146px;
 }
