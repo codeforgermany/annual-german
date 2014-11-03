@@ -9,14 +9,14 @@
 }
 
 .press .atlanticcities,
-.press .latimes,
-.press .usatoday,
-.press .pbs,
+.press .heise,
+.press .t3n,
+.press .zdf,
 .press .taz,
 .press .cnet,
 .press .details,
-.press .globaljournal,
-.press .fastco {
+.press .ard,
+.press .golem {
   height: 40px;
   margin-bottom: 30px;
 }
@@ -31,24 +31,22 @@
   height: 60px;
 }
 
-.press .latimes {
-  background-image:url('../img/losangelestimes.png');
-  background-size: 340px;
-  width: 340px;
+.press .heise {
+  background-image:url('../img/heise.svg');
+  height: 80px;
+  width: 150px;
 }
 
-.press .usatoday {
-  background-image:url('../img/usatoday.png');
-  background-size: 129px;
-  width: 129px;
-  height: 60px;
+.press .t3n {
+  background-image:url('../img/t3n.svg');
+  width: 150px;
+  height: 80px;
 }
 
-.press .pbs {
-  background-image:url('../img/pbs.png');
-  background-size: 156px;
-  width: 156px;
-  height: 60px;
+.press .zdf {
+  background-image:url('../img/zdf.svg');
+  width: 150px;
+  height: 80px;
 }
 
 .press .taz {
@@ -70,34 +68,19 @@
   width: 177px;
 }
 
-.press .globaljournal {
-  background-image:url('../img/globaljournal.png');
-  background-size: 178px;
-  width: 178px;
+.press .ard {
+  background-image:url('../img/ard.svg');
+  height: 80px;
+  width: 180px;
 }
 
-.press .fastco {
-  background-image:url('../img/fastco.png');
-  background-size: 281px;
-  width: 281px;
-}
-
-.press .latimes:hover {
-  background-position: 0 -40px;
+.press .golem {
+  background-image:url('../img/golem.svg');
+  height: 68px;
+  width: 309px;
 }
 
 
-.press .msnbc:hover {
-  background-position: 0 -50px;
-}
-
-.press .details:hover {
-  background-position: 0 -40px;
-}
-
-.press .globaljournal:hover {
-  background-position: 0 -45px;
-}
 
 .getinvolved .press div  {
   margin-right: 20px;

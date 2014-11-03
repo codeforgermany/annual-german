@@ -2007,14 +2007,14 @@ li {
 
 /* line 19, ../sass/_press.scss */
 .press .atlanticcities,
-.press .latimes,
-.press .usatoday,
-.press .pbs,
+.press .heise,
+.press .t3n,
+.press .zdf,
 .press .taz,
 .press .cnet,
 .press .details,
-.press .globaljournal,
-.press .fastco {
+.press .ard,
+.press .golem {
   height: 40px;
   margin-bottom: 30px;
 }
@@ -2029,36 +2029,34 @@ li {
 }
 
 /* line 34, ../sass/_press.scss */
-.press .latimes {
-  background-image: url("../img/losangelestimes.png");
-  background-size: 340px;
-  width: 340px;
+.press .heise {
+  background-image: url("../img/heise.svg");
+  height: 80px;
+  width: 150px;
 }
 
 /* line 40, ../sass/_press.scss */
-.press .usatoday {
-  background-image: url("../img/usatoday.png");
-  background-size: 129px;
-  width: 129px;
-  height: 60px;
+.press .t3n {
+  background-image: url("../img/t3n.svg");
+  width: 150px;
+  height: 80px;
 }
 
-/* line 47, ../sass/_press.scss */
-.press .pbs {
-  background-image: url("../img/pbs.png");
-  background-size: 156px;
-  width: 156px;
-  height: 60px;
+/* line 46, ../sass/_press.scss */
+.press .zdf {
+  background-image: url("../img/zdf.svg");
+  width: 150px;
+  height: 80px;
 }
 
-/* line 54, ../sass/_press.scss */
+/* line 52, ../sass/_press.scss */
 .press .taz {
   background-image: url("../img/taz.svg");
   background-size: 146px;
   width: 146px;
 }
 
-/* line 60, ../sass/_press.scss */
+/* line 58, ../sass/_press.scss */
 .press .cnet {
   background-image: url("../img/cnet.png");
   background-size: 81px;
@@ -2066,59 +2064,39 @@ li {
   height: 60px;
 }
 
-/* line 67, ../sass/_press.scss */
+/* line 65, ../sass/_press.scss */
 .press .details {
   background-image: url("../img/details.png");
   background-size: 177px;
   width: 177px;
 }
 
-/* line 73, ../sass/_press.scss */
-.press .globaljournal {
-  background-image: url("../img/globaljournal.png");
-  background-size: 178px;
-  width: 178px;
+/* line 71, ../sass/_press.scss */
+.press .ard {
+  background-image: url("../img/ard.svg");
+  height: 80px;
+  width: 180px;
 }
 
-/* line 79, ../sass/_press.scss */
-.press .fastco {
-  background-image: url("../img/fastco.png");
-  background-size: 281px;
-  width: 281px;
+/* line 77, ../sass/_press.scss */
+.press .golem {
+  background-image: url("../img/golem.svg");
+  height: 68px;
+  width: 309px;
 }
 
 /* line 85, ../sass/_press.scss */
-.press .latimes:hover {
-  background-position: 0 -40px;
-}
-
-/* line 90, ../sass/_press.scss */
-.press .msnbc:hover {
-  background-position: 0 -50px;
-}
-
-/* line 94, ../sass/_press.scss */
-.press .details:hover {
-  background-position: 0 -40px;
-}
-
-/* line 98, ../sass/_press.scss */
-.press .globaljournal:hover {
-  background-position: 0 -45px;
-}
-
-/* line 102, ../sass/_press.scss */
 .getinvolved .press div {
   margin-right: 20px;
   float: left;
 }
 
-/* line 107, ../sass/_press.scss */
+/* line 90, ../sass/_press.scss */
 .press div {
   margin: 20px 0;
 }
 
-/* line 111, ../sass/_press.scss */
+/* line 94, ../sass/_press.scss */
 .press .keynotes {
   margin-top: 50px;
 }
