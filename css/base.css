@@ -844,10 +844,10 @@ a.appspop:hover {
 
 /* line 198, ../sass/_backgrounds.scss */
 .pagebg.imagepressback {
-  background: url("../img/pressback.jpg") no-repeat;
+  background: url("../img/pressback.png") no-repeat;
   background-size: cover;
   background-position: right;
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/pressback.jpg', sizingMethod='scale')";
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/pressback.png', sizingMethod='scale')";
 }
 
 /* line 205, ../sass/_backgrounds.scss */
@@ -2004,10 +2004,16 @@ li {
 .press .details:hover,
 .press .globaljournal:hover,
 .press .fastco:hover {
-  background-position: 0 -40px;
+  background-position: 0 0px;
 }
 
-
+/* line 38, ../sass/_press.scss */
+.press .atlanticcities:hover,
+.press .usatoday:hover,
+.press .pbs:hover,
+.press .cnet:hover {
+  background-position: 0 -60px;
+}
 
 /* .7895 */
 /* line 44, ../sass/_press.scss */
