@@ -68,7 +68,7 @@
   background-position:right;
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/thanksback.jpg', sizingMethod='scale')";
   @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-    background: #7ab5d6;
+    background: #00ABFA;
   }
 }
 .pagebg.hintergrund{ 
@@ -82,7 +82,7 @@
   }
   //ipad
   @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-    background: #7ab5d6;
+    background: #00ABFA;
   }
 }
 .pagebg.imageopen-closed{ 
@@ -96,7 +96,7 @@
   }
   //ipad
   @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-    background: #7ab5d6;
+    background: #00ABFA;
   }
 }
 .pagebg.imagegood_governance{ 
@@ -110,7 +110,7 @@
   }
   //ipad
   @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-    background: #7ab5d6;
+    background: #00ABFA;
   }
 }
 .pagebg.imageforthepeople{ 
@@ -124,7 +124,7 @@
   }
   //ipad
   @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-    background: #7ab5d6;
+    background: #00ABFA;
   }
 }
 
@@ -139,10 +139,24 @@
   }
   //ipad
   @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-    background: #7ab5d6;
+    background: #00ABFA;
   }
 }
 
+.pagebg.karte2{ 
+  background: url("../img/karte2.png") no-repeat;
+  background-size:cover;
+  background-position:right;
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/karte2.png', sizingMethod='scale')";
+  @media screen and (max-width: 1024px) {
+    background: url("../img/forthepeople_small.jpg") no-repeat;
+    background-size: 1024px;
+  }
+  //ipad
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    background: #00ABFA;
+  }
+}
 
 .pagebg.imageiphone{ 
   background: url("../img/iphone.jpg") no-repeat;
@@ -204,11 +218,11 @@
   background-position:center;
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/cfa_office.jpg', sizingMethod='scale')";
 }
-.pagebg.imageannual_report_back{ 
-  background: url("../img/annual_report_back.jpg") no-repeat;
+.pagebg.wiki{ 
+  background: url("../img/wiki.png") no-repeat;
   background-size:cover;
   background-position:right;
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/annual_report_back.jpg', sizingMethod='scale')";
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/wiki.png', sizingMethod='scale')";
 }
 .pagebg.imagepressback{ 
   background: url("../img/pressback.png") no-repeat;

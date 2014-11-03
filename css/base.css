@@ -645,7 +645,7 @@ a.appspop:hover {
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   /* line 65, ../sass/_backgrounds.scss */
   .pagebg.imagethanksback {
-    background: #7ab5d6;
+    background: #00ABFA;
   }
 }
 
@@ -666,7 +666,7 @@ a.appspop:hover {
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   /* line 74, ../sass/_backgrounds.scss */
   .pagebg.hintergrund {
-    background: #7ab5d6;
+    background: #00ABFA;
   }
 }
 
@@ -687,7 +687,7 @@ a.appspop:hover {
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   /* line 88, ../sass/_backgrounds.scss */
   .pagebg.imageopen-closed {
-    background: #7ab5d6;
+    background: #00ABFA;
   }
 }
 
@@ -708,7 +708,7 @@ a.appspop:hover {
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   /* line 102, ../sass/_backgrounds.scss */
   .pagebg.imagegood_governance {
-    background: #7ab5d6;
+    background: #00ABFA;
   }
 }
 
@@ -729,7 +729,7 @@ a.appspop:hover {
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   /* line 116, ../sass/_backgrounds.scss */
   .pagebg.imageforthepeople {
-    background: #7ab5d6;
+    background: #00ABFA;
   }
 }
 
@@ -750,11 +750,32 @@ a.appspop:hover {
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   /* line 131, ../sass/_backgrounds.scss */
   .pagebg.karte {
-    background: #7ab5d6;
+    background: #00ABFA;
   }
 }
 
-/* line 147, ../sass/_backgrounds.scss */
+/* line 146, ../sass/_backgrounds.scss */
+.pagebg.karte2 {
+  background: url("../img/karte2.png") no-repeat;
+  background-size: cover;
+  background-position: right;
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/karte2.png', sizingMethod='scale')";
+}
+@media screen and (max-width: 1024px) {
+  /* line 146, ../sass/_backgrounds.scss */
+  .pagebg.karte2 {
+    background: url("../img/forthepeople_small.jpg") no-repeat;
+    background-size: 1024px;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* line 146, ../sass/_backgrounds.scss */
+  .pagebg.karte2 {
+    background: #00ABFA;
+  }
+}
+
+/* line 161, ../sass/_backgrounds.scss */
 .pagebg.imageiphone {
   background: url("../img/iphone.jpg") no-repeat;
   background-size: cover;
@@ -762,7 +783,7 @@ a.appspop:hover {
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/iphone.jpg', sizingMethod='scale')";
 }
 
-/* line 153, ../sass/_backgrounds.scss */
+/* line 167, ../sass/_backgrounds.scss */
 .pagebg.imagebike {
   background: url("../img/bike.jpg");
   background-size: cover;
@@ -770,7 +791,7 @@ a.appspop:hover {
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/bike.jpg', sizingMethod='scale')";
 }
 
-/* line 159, ../sass/_backgrounds.scss */
+/* line 173, ../sass/_backgrounds.scss */
 .pagebg.imagechicagocityhall {
   background: url("../img/chicago_cityhall.jpg");
   background-size: cover;
@@ -778,7 +799,7 @@ a.appspop:hover {
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/chicago_cityhall.jpg', sizingMethod='scale')";
 }
 
-/* line 165, ../sass/_backgrounds.scss */
+/* line 179, ../sass/_backgrounds.scss */
 .pagebg.imagebigdata2 {
   background: url("../img/big_data2.jpg");
   background-size: cover;
@@ -786,7 +807,7 @@ a.appspop:hover {
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/big_data_2.jpg', sizingMethod='scale')";
 }
 
-/* line 171, ../sass/_backgrounds.scss */
+/* line 185, ../sass/_backgrounds.scss */
 .pagebg.imagefellows {
   background: url("../img/fellows.jpg");
   background-size: cover;
@@ -794,7 +815,7 @@ a.appspop:hover {
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/fellows.jpg', sizingMethod='scale')";
 }
 
-/* line 177, ../sass/_backgrounds.scss */
+/* line 191, ../sass/_backgrounds.scss */
 .pagebg.imagebigdata {
   background: url("../img/big_data.jpg");
   background-size: cover;
@@ -802,7 +823,7 @@ a.appspop:hover {
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/big_data.jpg', sizingMethod='scale')";
 }
 
-/* line 183, ../sass/_backgrounds.scss */
+/* line 197, ../sass/_backgrounds.scss */
 .pagebg.imagehonolulu {
   background: url("../img/honolulu.jpg");
   background-size: cover;
@@ -810,7 +831,7 @@ a.appspop:hover {
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/honolulu.jpg', sizingMethod='scale')";
 }
 
-/* line 189, ../sass/_backgrounds.scss */
+/* line 203, ../sass/_backgrounds.scss */
 .pagebg.imageserena {
   background: url("../img/serena.jpg");
   background-size: cover;
@@ -818,7 +839,7 @@ a.appspop:hover {
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/serena.jpg', sizingMethod='scale')";
 }
 
-/* line 195, ../sass/_backgrounds.scss */
+/* line 209, ../sass/_backgrounds.scss */
 .pagebg.imagecommunity {
   background: url("../img/community.jpg");
   background-size: cover;
@@ -826,7 +847,7 @@ a.appspop:hover {
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/community.jpg', sizingMethod='scale')";
 }
 
-/* line 201, ../sass/_backgrounds.scss */
+/* line 215, ../sass/_backgrounds.scss */
 .pagebg.imagecfaoffice {
   background: url("../img/cfa_office.jpg");
   background-size: cover;
@@ -834,15 +855,15 @@ a.appspop:hover {
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/cfa_office.jpg', sizingMethod='scale')";
 }
 
-/* line 207, ../sass/_backgrounds.scss */
-.pagebg.imageannual_report_back {
-  background: url("../img/annual_report_back.jpg") no-repeat;
+/* line 221, ../sass/_backgrounds.scss */
+.pagebg.wiki {
+  background: url("../img/wiki.png") no-repeat;
   background-size: cover;
   background-position: right;
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/annual_report_back.jpg', sizingMethod='scale')";
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/wiki.png', sizingMethod='scale')";
 }
 
-/* line 213, ../sass/_backgrounds.scss */
+/* line 227, ../sass/_backgrounds.scss */
 .pagebg.imagepressback {
   background: url("../img/pressback.png") no-repeat;
   background-size: cover;
@@ -850,7 +871,7 @@ a.appspop:hover {
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/pressback.png', sizingMethod='scale')";
 }
 
-/* line 220, ../sass/_backgrounds.scss */
+/* line 234, ../sass/_backgrounds.scss */
 .pagebg img {
   min-width: 100%;
   min-height: 100%;
@@ -1364,7 +1385,7 @@ body {
   webkit-font-smoothing: subpixel-antialiased;
   text-align: left;
   font-weight: 600;
-  text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.4);
+  text-shadow: 0px 2px 6px rgba(0, 0, 0, 0);
 }
 
 /* line 22, ../sass/_global-reset.scss */
@@ -2206,7 +2227,7 @@ a.startupspop:hover {
 
 /* line 3, ../sass/_getinvolved.scss */
 .getinvolved {
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(255, 255, 255, 0);
   background: #fff;
   color: #000;
   padding: 70px 80px;
@@ -2290,7 +2311,7 @@ a.startupspop:hover {
 
 /* line 75, ../sass/_getinvolved.scss */
 .getinvolved form {
-  background: rgba(214, 214, 214, 0.7);
+  background: rgba(214, 214, 214, 0);
   padding: 25px 30px;
   width: 50%;
   margin: 25px auto 10px auto;
@@ -2342,7 +2363,7 @@ a.startupspop:hover {
   color: #fff;
   margin: 30px 0px 0px 50px;
   text-align: left;
-  text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+  text-shadow: 0px 2px 6px rgba(0, 0, 0, 0);
 }
 
 /* line 40, ../sass/_sidebar.scss */
@@ -2685,7 +2706,7 @@ iframe.twitter-share-button {
   color: #fff;
   margin: 30px 0px 0px 00px;
   text-align: left;
-  text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
+  text-shadow: 0px 2px 6px rgba(0, 0, 0, 0);
   text-transform: uppercase;
   padding: 0px 0px 75px 0px;
 }
@@ -2746,7 +2767,7 @@ iframe.twitter-share-button {
 /* line 201, ../sass/base.scss */
 .page.quote .title h1 {
   line-height: 10px;
-  text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.4);
+  text-shadow: 0px 2px 6px rgba(0, 0, 0, 0);
   font-size: 115px;
   margin: 90px auto 117px;
   font-weight: 600;
@@ -3233,7 +3254,7 @@ Temporary css for image placeholders
 
 /* line 617, ../sass/base.scss */
 .companies {
-  background-color: rgba(255, 255, 255, 0.75);
+  background-color: rgba(255, 255, 255, 0);
   color: #000;
   text-shadow: none;
   float: left;
