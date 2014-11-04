@@ -787,7 +787,15 @@ a.appspop:hover {
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/pressback.png', sizingMethod='scale')";
 }
 
-/* line 184, ../sass/_backgrounds.scss */
+/* line 183, ../sass/_backgrounds.scss */
+.pagebg.thanks {
+  background: url("../img/thanks.png") no-repeat;
+  background-size: cover;
+  background-position: right;
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/pressback.png', sizingMethod='scale')";
+}
+
+/* line 190, ../sass/_backgrounds.scss */
 .pagebg img {
   min-width: 100%;
   min-height: 100%;

@@ -180,6 +180,12 @@
   background-position:right;
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/pressback.png', sizingMethod='scale')";
 }
+.pagebg.thanks{ 
+  background: url("../img/thanks.png") no-repeat;
+  background-size:cover;
+  background-position:right;
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/pressback.png', sizingMethod='scale')";
+}
 
 .pagebg img{ 
   min-width:100%;
