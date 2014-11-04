@@ -67,65 +67,31 @@
   background-size:cover;
   background-position:right;
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/thanksback.jpg', sizingMethod='scale')";
-  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-    background: #00ABFA;
-  }
 }
 .pagebg.hintergrund{ 
   background: url("../img/hintergrund.png") no-repeat;
   background-size:cover;
   background-position:right;
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/hintergrund.png', sizingMethod='scale')";
-  @media screen and (max-width: 1024px) {
-    background: url("../img/hintergrund.png") no-repeat;
-    background-size: 1024px;
-  }
-  //ipad
-  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-    background: #00ABFA;
-  }
 }
 .pagebg.imageopen-closed{ 
   background: url("../img/community.png") no-repeat;
   background-size:cover;
   background-position:right;
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/community.png', sizingMethod='scale')";
-  @media screen and (max-width: 1024px) {
-    background: url("../img/community_small.png") no-repeat;
-    background-size: 1024px;
-  }
-  //ipad
-  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-    background: #00ABFA;
-  }
 }
 .pagebg.imagegood_governance{ 
   background: url("../img/map.png") no-repeat;
   background-size:cover;
   background-position:right;
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/good_governance.jpg', sizingMethod='scale')";
-  @media screen and (max-width: 1024px) {
-    background: url("../img/good_governance_small.jpg") no-repeat;
-    background-size: 1024px;
-  }
-  //ipad
-  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-    background: #00ABFA;
-  }
+
 }
 .pagebg.imageforthepeople{ 
   background: url("../img/wiki.png") no-repeat;
   background-size:cover;
   background-position:right;
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/forthepeople.jpg', sizingMethod='scale')";
-  @media screen and (max-width: 1024px) {
-    background: url("../img/wiki_small.png") no-repeat;
-    background-size: 1024px;
-  }
-  //ipad
-  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-    background: #00ABFA;
-  }
 }
 
 .pagebg.karte{ 
@@ -133,14 +99,6 @@
   background-size:cover;
   background-position:right;
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/karte.png', sizingMethod='scale')";
-  @media screen and (max-width: 1024px) {
-    background: url("../img/forthepeople_small.jpg") no-repeat;
-    background-size: 1024px;
-  }
-  //ipad
-  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-    background: #00ABFA;
-  }
 }
 
 .pagebg.karte2{ 
@@ -148,14 +106,6 @@
   background-size:cover;
   background-position:right;
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/karte2.png', sizingMethod='scale')";
-  @media screen and (max-width: 1024px) {
-    background: url("../img/forthepeople_small.jpg") no-repeat;
-    background-size: 1024px;
-  }
-  //ipad
-  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-    background: #00ABFA;
-  }
 }
 
 .pagebg.imageiphone{ 
