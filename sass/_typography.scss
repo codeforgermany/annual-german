@@ -48,3 +48,47 @@
 }
 
 
+
+$black: #333;
+
+.text-black {
+  color: $black;
+  text-shadow: none;
+
+  a {
+    
+    color: $black;
+
+    &:hover, &:active {
+      color: $black;
+      border-bottom: 1px solid $black;
+    }
+    
+  }
+
+  blockquote {
+    border-left: 5px solid $black;
+  }
+
+  .stats2013 {
+    border-left: 2px solid $black;
+  }
+
+  .line {
+    border: 1px solid $black;
+  }
+
+}
+
+.page.quote .text-black h1, .page.story .text-black h1  {
+  color: $black;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.carousel-control {
+  line-height: 26px;
+  font-size: 60px;
+}

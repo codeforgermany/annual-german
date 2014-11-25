@@ -836,21 +836,22 @@ a.appspop:hover {
 .carousel-inner > .item > a > img {
   display: block;
   line-height: 1;
+  width: 100%;
 }
 
-/* line 38, ../sass/_carousel.scss */
+/* line 39, ../sass/_carousel.scss */
 .carousel-inner > .active,
 .carousel-inner > .next,
 .carousel-inner > .prev {
   display: block;
 }
 
-/* line 42, ../sass/_carousel.scss */
+/* line 43, ../sass/_carousel.scss */
 .carousel-inner > .active {
   left: 0;
 }
 
-/* line 47, ../sass/_carousel.scss */
+/* line 48, ../sass/_carousel.scss */
 .carousel-inner > .next,
 .carousel-inner > .prev {
   position: absolute;
@@ -858,33 +859,33 @@ a.appspop:hover {
   width: 100%;
 }
 
-/* line 53, ../sass/_carousel.scss */
+/* line 54, ../sass/_carousel.scss */
 .carousel-inner > .next {
   left: 100%;
 }
 
-/* line 57, ../sass/_carousel.scss */
+/* line 58, ../sass/_carousel.scss */
 .carousel-inner > .prev {
   left: -100%;
 }
 
-/* line 62, ../sass/_carousel.scss */
+/* line 63, ../sass/_carousel.scss */
 .carousel-inner > .next.left,
 .carousel-inner > .prev.right {
   left: 0;
 }
 
-/* line 66, ../sass/_carousel.scss */
+/* line 67, ../sass/_carousel.scss */
 .carousel-inner > .active.left {
   left: -100%;
 }
 
-/* line 70, ../sass/_carousel.scss */
+/* line 71, ../sass/_carousel.scss */
 .carousel-inner > .active.right {
   left: 100%;
 }
 
-/* line 75, ../sass/_carousel.scss */
+/* line 76, ../sass/_carousel.scss */
 .apps .carousel-control,
 .carousel-control {
   /*  position: absolute;
@@ -894,22 +895,22 @@ a.appspop:hover {
     background: none;*/
 }
 
-/* line 83, ../sass/_carousel.scss */
+/* line 84, ../sass/_carousel.scss */
 .carousel-control {
   top: 50%;
 }
 
-/* line 87, ../sass/_carousel.scss */
+/* line 88, ../sass/_carousel.scss */
 .carousel-control.right {
   right: 20px;
 }
 
-/* line 91, ../sass/_carousel.scss */
+/* line 92, ../sass/_carousel.scss */
 .apps .carousel-control.right {
   left: auto;
 }
 
-/* line 96, ../sass/_carousel.scss */
+/* line 97, ../sass/_carousel.scss */
 .carousel-control:hover,
 .carousel-control:focus {
   color: #ffffff;
@@ -919,13 +920,13 @@ a.appspop:hover {
   border-bottom: 3px solid #ffffff;
 }
 
-/* line 104, ../sass/_carousel.scss */
+/* line 105, ../sass/_carousel.scss */
 .carousel-indicators {
   bottom: -26px;
   top: inherit;
 }
 
-/* line 109, ../sass/_carousel.scss */
+/* line 110, ../sass/_carousel.scss */
 .carousel-indicators .active {
   background-color: #fff;
 }
@@ -1309,7 +1310,7 @@ body {
   webkit-font-smoothing: subpixel-antialiased;
   text-align: left;
   font-weight: 600;
-  text-shadow: 0px 2px 6px rgba(0, 0, 0, 0);
+  text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.4);
 }
 
 /* line 22, ../sass/_global-reset.scss */
@@ -2117,9 +2118,52 @@ a.startupspop:hover {
   text-decoration: none;
 }
 
+/* line 54, ../sass/_typography.scss */
+.text-black {
+  color: #333333;
+  text-shadow: none;
+}
+/* line 58, ../sass/_typography.scss */
+.text-black a {
+  color: #333333;
+}
+/* line 62, ../sass/_typography.scss */
+.text-black a:hover, .text-black a:active {
+  color: #333333;
+  border-bottom: 1px solid #333333;
+}
+/* line 69, ../sass/_typography.scss */
+.text-black blockquote {
+  border-left: 5px solid #333333;
+}
+/* line 73, ../sass/_typography.scss */
+.text-black .stats2013 {
+  border-left: 2px solid #333333;
+}
+/* line 77, ../sass/_typography.scss */
+.text-black .line {
+  border: 1px solid #333333;
+}
+
+/* line 83, ../sass/_typography.scss */
+.page.quote .text-black h1, .page.story .text-black h1 {
+  color: #333333;
+}
+
+/* line 87, ../sass/_typography.scss */
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* line 91, ../sass/_typography.scss */
+.carousel-control {
+  line-height: 26px;
+  font-size: 60px;
+}
+
 /* line 3, ../sass/_getinvolved.scss */
 .getinvolved {
-  background: rgba(255, 255, 255, 0);
+  background: rgba(255, 255, 255, 0.95);
   background: #fff;
   color: #000;
   padding: 70px 80px;
@@ -2203,7 +2247,7 @@ a.startupspop:hover {
 
 /* line 75, ../sass/_getinvolved.scss */
 .getinvolved form {
-  background: rgba(214, 214, 214, 0);
+  background: rgba(214, 214, 214, 0.7);
   padding: 25px 30px;
   width: 50%;
   margin: 25px auto 10px auto;
@@ -2255,7 +2299,7 @@ a.startupspop:hover {
   color: #fff;
   margin: 30px 0px 0px 50px;
   text-align: left;
-  text-shadow: 0px 2px 6px rgba(0, 0, 0, 0);
+  text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
 }
 
 /* line 40, ../sass/_sidebar.scss */
@@ -2598,7 +2642,7 @@ iframe.twitter-share-button {
   color: #fff;
   margin: 30px 0px 0px 00px;
   text-align: left;
-  text-shadow: 0px 2px 6px rgba(0, 0, 0, 0);
+  text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
   text-transform: uppercase;
   padding: 0px 0px 75px 0px;
 }
@@ -2659,7 +2703,7 @@ iframe.twitter-share-button {
 /* line 201, ../sass/base.scss */
 .page.quote .title h1 {
   line-height: 10px;
-  text-shadow: 0px 2px 6px rgba(0, 0, 0, 0);
+  text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.4);
   font-size: 115px;
   margin: 90px auto 117px;
   font-weight: 600;
@@ -3146,7 +3190,7 @@ Temporary css for image placeholders
 
 /* line 617, ../sass/base.scss */
 .companies {
-  background-color: rgba(255, 255, 255, 0);
+  background-color: rgba(255, 255, 255, 0.75);
   color: #000;
   text-shadow: none;
   float: left;
