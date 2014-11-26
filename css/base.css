@@ -14,6 +14,11 @@
 }
 
 /* line 16, ../sass/_application-logos.scss */
+
+a.inactive {
+  border: underline;
+}
+
 a.appspop:hover {
   border: none;
 }
