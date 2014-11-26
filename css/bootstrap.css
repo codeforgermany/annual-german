@@ -78,8 +78,12 @@ a:focus {
 }
 
 a:hover,
-a:active {
+a:active{
   outline: 0;
+}
+
+a:link {
+    text-decoration: underline;
 }
 
 sub,
