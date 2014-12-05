@@ -1,4 +1,4 @@
-/*****************************************************************************/
+  /*****************************************************************************/
 /*
 /* Logos
 /*
@@ -14,11 +14,6 @@
 }
 
 /* line 16, ../sass/_application-logos.scss */
-
-a.inactive {
-  border: underline;
-}
-
 a.appspop:hover {
   border: none;
 }
@@ -658,7 +653,7 @@ a.appspop:hover {
 
 /* line 77, ../sass/_backgrounds.scss */
 .pagebg.imageopen-closed {
-  background: url("../img/community.png") no-repeat;
+  background: url("../img/startseite.png") no-repeat;
   background-size: cover;
   background-position: right;
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/community.png', sizingMethod='scale')";
@@ -666,7 +661,7 @@ a.appspop:hover {
 
 /* line 83, ../sass/_backgrounds.scss */
 .pagebg.imagegood_governance {
-  background: url("../img/map.png") no-repeat;
+  background: url("../img/community.png") no-repeat;
   background-size: cover;
   background-position: right;
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/good_governance.jpg', sizingMethod='scale')";
@@ -674,7 +669,7 @@ a.appspop:hover {
 
 /* line 90, ../sass/_backgrounds.scss */
 .pagebg.imageforthepeople {
-  background: url("../img/wiki.png") no-repeat;
+  background: url("../img/map.png") no-repeat;
   background-size: cover;
   background-position: right;
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/forthepeople.jpg', sizingMethod='scale')";
