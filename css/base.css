@@ -2487,16 +2487,12 @@ iframe.twitter-share-button {
 }
 
 /* line 3, ../sass/_people.scss */
-.people-advisory .bios img {
+.people .bios img {
   border-radius: 100px;
 }
 /* line 7, ../sass/_people.scss */
-.people-advisory .bios .span2 {
+.people .bios .span2 {
   width: 100px;
-}
-/* line 11, ../sass/_people.scss */
-.people-advisory a, .people-advisory a:hover, .people-advisory a:active, .people-advisory a:focus {
-  font-weight: normal;
 }
 
 /*****************************************************************************/
