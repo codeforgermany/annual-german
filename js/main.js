@@ -455,11 +455,17 @@ $(function(){
       $("#loading").fadeOut({duration:1000});
     readytoshow = true;
   });
+
+  $('.lab-more-link').on('click', function () {
+    $(this).hide();
+  });
+
   setTimeout(function(){
     if(readytoshow)
       $("#loading").fadeOut({duration:1000});
     readytoshow = true;
   }, 1000);
+  
   var usTopology;
   //shows nav when user hovers over the logo
   var height = $(window).height(),
