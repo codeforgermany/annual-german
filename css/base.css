@@ -2494,6 +2494,10 @@ iframe.twitter-share-button {
 .people .bios .span2 {
   width: 100px;
 }
+/* line 11, ../sass/_people.scss */
+.people a, .people a:hover, .people a:focus, .people a:active {
+  font-weight: normal;
+}
 
 /*****************************************************************************/
 /*
