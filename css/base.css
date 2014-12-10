@@ -1310,7 +1310,7 @@ body {
   webkit-font-smoothing: subpixel-antialiased;
   text-align: left;
   font-weight: 600;
-  text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.4);
+  text-shadow: 0px 2px 6px rgba(0, 0, 0, 0);
 }
 
 /* line 22, ../sass/_global-reset.scss */
@@ -2199,9 +2199,10 @@ a.startupspop:hover {
   text-transform: none;
   margin-top: 19px;
   font-size: 22px;
+  text-align: center;
 }
 
-/* line 39, ../sass/_getinvolved.scss */
+/* line 40, ../sass/_getinvolved.scss */
 .getinvolved h5 {
   font-size: 16px;
   font-style: normal;
@@ -2209,43 +2210,44 @@ a.startupspop:hover {
   font-weight: bold;
 }
 
-/* line 46, ../sass/_getinvolved.scss */
+/* line 47, ../sass/_getinvolved.scss */
 .getinvolved p {
-  font-size: 17px;
-  line-height: 25px;
+  font-weight: 300;
+  font-size: 18px;
+  text-align: center;
 }
 
-/* line 51, ../sass/_getinvolved.scss */
+/* line 53, ../sass/_getinvolved.scss */
 .getinvolved img {
   width: 40%;
   margin-top: 15px;
 }
 
-/* line 56, ../sass/_getinvolved.scss */
+/* line 58, ../sass/_getinvolved.scss */
 .getinvolved a {
   color: #000;
 }
 
-/* line 61, ../sass/_getinvolved.scss */
+/* line 63, ../sass/_getinvolved.scss */
 .getinvolved a:hover,
 .companies a:hover {
   color: #C82A45;
   border-bottom: #C82A45 solid 1px;
 }
 
-/* line 66, ../sass/_getinvolved.scss */
+/* line 68, ../sass/_getinvolved.scss */
 .getinvolved span {
   font-weight: 700;
 }
 
-/* line 70, ../sass/_getinvolved.scss */
+/* line 72, ../sass/_getinvolved.scss */
 .getinvolved li {
   margin-bottom: 15px;
   font-size: 20px;
   font-weight: 300;
 }
 
-/* line 76, ../sass/_getinvolved.scss */
+/* line 78, ../sass/_getinvolved.scss */
 .getinvolved form {
   padding: 25px 30px;
   width: 50%;
@@ -2253,18 +2255,18 @@ a.startupspop:hover {
   text-align: center;
 }
 
-/* line 83, ../sass/_getinvolved.scss */
+/* line 85, ../sass/_getinvolved.scss */
 .getinvolved label {
   color: #000;
   margin-right: 10px;
 }
 
-/* line 89, ../sass/_getinvolved.scss */
+/* line 91, ../sass/_getinvolved.scss */
 .getinvolved.joinus input {
   border-radius: 0;
   display: inline-block;
 }
-/* line 94, ../sass/_getinvolved.scss */
+/* line 96, ../sass/_getinvolved.scss */
 .getinvolved.joinus .btn {
   background-color: #ff5449;
   padding: 5px 40px;
@@ -2524,7 +2526,7 @@ iframe.twitter-share-button {
 /*****************************************************************************/
 /* line 27, ../sass/base.scss */
 .danke {
-  align: center;
+  text-align: center;
 }
 
 /* line 31, ../sass/base.scss */
@@ -2678,7 +2680,7 @@ iframe.twitter-share-button {
   color: #fff;
   margin: 30px 0px 0px 00px;
   text-align: left;
-  text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
+  text-shadow: 0px 2px 6px rgba(0, 0, 0, 0);
   text-transform: uppercase;
   padding: 0px 0px 75px 0px;
 }
@@ -3226,7 +3228,7 @@ Temporary css for image placeholders
 
 /* line 623, ../sass/base.scss */
 .companies {
-  background-color: rgba(255, 255, 255, 0.75);
+  background-color: rgba(255, 255, 255, 0);
   color: #000;
   text-shadow: none;
   float: left;
