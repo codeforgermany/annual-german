@@ -10,11 +10,6 @@
   margin: 200px 70px 100px;
 }
 
-.getinvolved.joinus {
-    // padding: 30px 0px 45px;
-    text-align: center;
-}
-
 .getinvolved p:first-child:first-letter { 
   float: left; 
   font-size: 48px;
@@ -25,7 +20,7 @@
 
 .getinvolved h1 {
   color: #000 !important;
-  font-size: 100px !important;
+ //  font-size: 100px !important;
   text-align: center;
   margin: 0px 0px 60px 0px;
 }
@@ -47,7 +42,6 @@
 .getinvolved p {
   font-weight: 300;
   font-size: 18px;
-  text-align: center;
 }
 
 .getinvolved img {
@@ -88,6 +82,12 @@
 }
 
 .getinvolved.joinus {
+  text-align: center;
+
+  input, .btn {
+    margin-bottom: 10px;
+  }
+
   input {
     border-radius: 0;
     display: inline-block;
