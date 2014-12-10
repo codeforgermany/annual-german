@@ -661,7 +661,7 @@ a.appspop:hover {
 
 /* line 83, ../sass/_backgrounds.scss */
 .pagebg.imagegood_governance {
-  background: url("../img/map.png") no-repeat;
+  background: url("../img/map.jpg") no-repeat;
   background-size: cover;
   background-position: right;
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/good_governance.jpg', sizingMethod='scale')";
@@ -685,7 +685,7 @@ a.appspop:hover {
 
 /* line 104, ../sass/_backgrounds.scss */
 .pagebg.karte2 {
-  background: url("../img/karte2.png") no-repeat;
+  background: url("../img/karte2.jpg") no-repeat;
   background-size: cover;
   background-position: right;
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/karte2.png', sizingMethod='scale')";
@@ -1310,7 +1310,7 @@ body {
   webkit-font-smoothing: subpixel-antialiased;
   text-align: left;
   font-weight: 600;
-  text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.4);
+  text-shadow: 0px 2px 6px rgba(0, 0, 0, 0);
 }
 
 /* line 22, ../sass/_global-reset.scss */
@@ -2163,7 +2163,7 @@ a.startupspop:hover {
 
 /* line 3, ../sass/_getinvolved.scss */
 .getinvolved {
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(255, 255, 255, 0);
   background: #fff;
   color: #000;
   padding: 70px 80px;
@@ -2242,7 +2242,7 @@ a.startupspop:hover {
 
 /* line 75, ../sass/_getinvolved.scss */
 .getinvolved form {
-  background: rgba(214, 214, 214, 0.7);
+  background: rgba(214, 214, 214, 0);
   padding: 25px 30px;
   width: 50%;
   margin: 25px auto 10px auto;
@@ -2655,7 +2655,7 @@ iframe.twitter-share-button {
   color: #fff;
   margin: 30px 0px 0px 00px;
   text-align: left;
-  text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
+  text-shadow: 0px 2px 6px rgba(0, 0, 0, 0);
   text-transform: uppercase;
   padding: 0px 0px 75px 0px;
 }
@@ -3203,7 +3203,7 @@ Temporary css for image placeholders
 
 /* line 619, ../sass/base.scss */
 .companies {
-  background-color: rgba(255, 255, 255, 0.75);
+  background-color: rgba(255, 255, 255, 0);
   color: #000;
   text-shadow: none;
   float: left;
