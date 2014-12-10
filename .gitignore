@@ -2,3 +2,5 @@
 _site/*
 .s3cfg
 *.sass-cache
+*.sublime*
+*.sublime*
