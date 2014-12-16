@@ -75,10 +75,10 @@
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/hintergrund.png', sizingMethod='scale')";
 }
 .pagebg.imageopen-closed{ 
-  background: url("../img/community.png") no-repeat;
+  background: url("../img/community_2.jpg") no-repeat;
   background-size:cover;
   background-position:right;
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/community.png', sizingMethod='scale')";
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/community.jpg', sizingMethod='scale')";
 }
 .pagebg.imagegood_governance{ 
   background: url("../img/map.jpg") no-repeat;
@@ -169,17 +169,12 @@
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/cfa_office.jpg', sizingMethod='scale')";
 }
 .pagebg.wiki{ 
-  background: url("../img/wiki.png") no-repeat;
+  background: url("../img/wiki.jpg") no-repeat;
   background-size:cover;
   background-position:right;
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/wiki.png', sizingMethod='scale')";
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/wiki.jpg', sizingMethod='scale')";
 }
-.pagebg.imagepressback{ 
-  background: url("../img/pressback.png") no-repeat;
-  background-size:cover;
-  background-position:right;
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/pressback.png', sizingMethod='scale')";
-}
+
 .pagebg.thanks{ 
   background: url("../img/thanks.png") no-repeat;
   background-size:cover;

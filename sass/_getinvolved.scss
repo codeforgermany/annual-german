@@ -56,7 +56,6 @@
 .getinvolved a:hover,
 .companies a:hover {
   color: #C82A45;
-  border-bottom: #C82A45 solid 1px;
 }
 
 .getinvolved span {
@@ -99,4 +98,9 @@
     display: inline-block;
     text-shadow: none;
   }
+}
+
+.fa-twitter:before {
+  font-size: 96px;
+  color: #0084B4;
 }
